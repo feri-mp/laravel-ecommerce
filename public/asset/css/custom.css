@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+
+.header {
+	padding: 10px 0;
+}
+
+.header-prod {
+    min-height: 163px;
+}
+
+.title-head a {
+	color: #ff8720;
+}
+
+.title-head a:hover {
+
+    text-decoration: none;
+
+}
+
+.form-header {
+
+    width: 79%;
+    padding: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: none;
+
+}
+
+.fas.fa-shopping-cart {
+
+    font-size: 25px;
+    line-height: 38px;
+    color: #55bf45;
+}
+
+.breadcrumb-item.active {
+    width: 100%;
+}
