@@ -15,6 +15,7 @@ class ProductController extends Controller
         return view('pages/home', compact('allproducts','categories'));
     }
 
+//     ini adalah tampilan pada menu category
     public function categori($slug)
     {
         
@@ -28,6 +29,7 @@ class ProductController extends Controller
         return view('pages/category',compact('categories','category'));
     }
 
+//     this is method for detail page
     public function details($slug_prod)
     {
         $categories = DB::table('category')->get();
